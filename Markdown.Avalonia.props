@@ -24,6 +24,9 @@
     <EnableAvaloniaEdit>enabled</EnableAvaloniaEdit>
     <AvaloniaEditVersion>11.0.0</AvaloniaEditVersion>
     <AvaloniaSvgVersion>11.0.0</AvaloniaSvgVersion>
+    <NoWarn>$(NoWarn);NU1605;NETSDK1138</NoWarn>
+    <WarningsNotAsErrors>$(WarningsNotAsErrors);MSB3277</WarningsNotAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <!-- Ignore temporary build output folders created inside project roots. -->
